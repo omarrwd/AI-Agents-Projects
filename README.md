@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🤖 The Journey of 10 AI Agents Projects using CrewAI 🤖
+# 🤖 The Journey of 10 AI Agents Projects using CrewAI Framework  🤖
 
 **_Building Simple AI Agents Using Free and Accessible Tools_**
 
