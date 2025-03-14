@@ -65,6 +65,15 @@ The agents work sequentially to provide comprehensive analysis based on up-to-da
    OPENROUTER_API_KEY=your_api_key_here
    ```
 
+5. If you need to install additional packages (this is from crew ai Docs), use:
+   ```
+   uv add <package-name>:
+   ```
+
+6. if there is error of PyPDF2 package or any package you can try install it, use:
+   ```
+   uv add <package-name>:
+   ```
 ### Usage
 
 1. Place your resume PDF file in the `knowledge` folder
