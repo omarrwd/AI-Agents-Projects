@@ -2,7 +2,7 @@
   
 # 🤖 The Journey of 10 AI Agents Projects 🤖
 
-**_Building Simple AI Agents Using Free and Accessible Tools using CrewAI Framework_**
+**_Building Simple AI Agents with Free and Accessible Tools Using the CrewAI Framework_**
 
 ![Agents Banner](https://img.shields.io/badge/AI%20Agents-Journey-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.11-brightgreen?style=flat-square)
