@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🤖 The Journey of 10 AI Agents Projects 🤖
+# 🤖 The Journey of 10 AI Agents Projects using CrewAI 🤖
 
 **_Building Simple AI Agents Using Free and Accessible Tools_**
 
@@ -81,7 +81,7 @@ The agents work sequentially to provide comprehensive analysis based on up-to-da
    ```bash
    crewai run
    ```
-3. Review the analysis output
+3. Review the output in output folder
 
 ## 📝 Configuration
 
