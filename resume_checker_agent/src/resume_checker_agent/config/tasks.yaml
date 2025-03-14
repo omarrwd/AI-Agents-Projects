@@ -1,0 +1,13 @@
+  resume_research_task:
+    description: >
+      Conduct thorough research on the best points and practices to create a resume optimized for Applicant Tracking Systems (ATS). Your research should include the latest trends and data as of 2025. Provide a comprehensive list containing 10 bullet points that detail the most effective tips and strategies for ATS optimization.
+    expected_output: "A list with 10 bullet points of the most effective tips and practices for creating an ATS-optimized resume."
+    agent: ats_resume_researcher
+
+  resume_analysis_task:
+    description: >
+      Analyze the ACTUAL resume content provided in the {resume_content} against the ATS best practices identified in the previous task. DO NOT create a sample resume or template—only analyze the actual content. Identify specific areas for improvement to better conform to ATS requirements, including keyword optimization, formatting, and clarity.
+    expected_output: >
+      A detailed analysis of the provided resume with specific, actionable recommendations for improvement based on updated ATS best practices and in the end write sections you have modified and based on what point from 10 points of the previous task you modified.
+    agent: resume_analyzer
+    context: [ats_resume_task]

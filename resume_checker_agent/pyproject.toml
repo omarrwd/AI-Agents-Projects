@@ -1,0 +1,26 @@
+[project]
+name = "resume_checker_agent"
+version = "1.0.0"
+description = "resume-checker-agent using crewAI"
+authors = [{ name = "Omar Rashed", email = "omarrashedhassan1@gmail.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.105.0,<1.0.0",
+    "duckduckgo-search>=7.5.2",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+resume_checker_agent = "resume_checker_agent.main:run"
+run_crew = "resume_checker_agent.main:run"
+train = "resume_checker_agent.main:train"
+replay = "resume_checker_agent.main:replay"
+test = "resume_checker_agent.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
