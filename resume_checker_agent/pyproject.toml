@@ -11,6 +11,9 @@ dependencies = [
     "python-dotenv>=1.0.1",
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/resume_checker_agent"]
+
 [project.scripts]
 resume_checker_agent = "resume_checker_agent.main:run"
 run_crew = "resume_checker_agent.main:run"
