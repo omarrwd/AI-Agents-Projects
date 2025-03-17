@@ -3,7 +3,7 @@ from .crew import load_config, extract_resume_text, ResumeCheckerCrew
 
 def run():
     # Define the path to the resume PDF in the knowledge folder
-    resume_path = os.path.join('src', 'knowledge', 'Omar-Rashed-Hassan.pdf')
+    resume_path = os.path.join('src', 'knowledge', 'replace_with_resume_file_name.pdf')
     resume_text = extract_resume_text(resume_path)
     # Load agents and tasks configurations
     agents_config = load_config('src/config/agents.yaml')
