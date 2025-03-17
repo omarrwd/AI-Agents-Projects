@@ -97,10 +97,16 @@ Then:
 
 1. Place your resume PDF file in the `knowledge` folder
 2. Run the resume checker:
+   A. if you are using crewai framework:
    ```bash
-   crewai run (if you are using crewai as framework) OR     python main.py  (if you are using crewai as python library)
+   crewai run
    ```
-3. Review the output in output folder
+   B. if you are using crewai as python library
+      ```bash
+   python main.py
+   ```
+   
+4. Review the output in output folder
 
 ## 📝 Configuration
 
