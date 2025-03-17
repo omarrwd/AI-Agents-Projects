@@ -3,7 +3,7 @@ import yaml
 import PyPDF2
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process, LLM
-from resume_checker_agent.tools.search_tool import DuckDuckGoTool
+from tools.search_tool import DuckDuckGoTool
 
 # Load environment variables
 load_dotenv()
