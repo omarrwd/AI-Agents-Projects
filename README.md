@@ -97,7 +97,7 @@ Then:
 
 1. put your resume PDF file in the `knowledge` folder
 2.  Replace ``` "replace_with_resume_file_name.pdf" ``` in ``` main.py ``` with the actual resume file name in the following line:
-   ``` resume_path = os.path.join('knowledge', 'replace_with_resume_file_name.pdf') ```
+   ``` resume_path = os.path.join('src', 'knowledge', 'replace_with_resume_file_name.pdf') ```
 4. Run the resume checker:
    
    A. if you are using crewai framework:
