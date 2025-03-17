@@ -52,7 +52,7 @@ The agents work sequentially to provide comprehensive analysis based on up-to-da
 first of all you should install the framework from [crewai install](https://docs.crewai.com/installation)
 Then: 
 1. git clone   ``` https://github.com/omarrwd/AI-Agents-Projects ```
-2. cd ``` AI-Agents-Projects/resume_checker_agent  ```
+2. cd ``` resume_checker_agent  ```
 3. Install dependencies:
    ```bash
    crewai install
