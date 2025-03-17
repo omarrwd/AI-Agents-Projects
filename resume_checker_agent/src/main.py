@@ -1,5 +1,5 @@
 import os
-from crew import load_config, extract_resume_text, ResumeCheckerCrew
+from .crew import load_config, extract_resume_text, ResumeCheckerCrew
 
 def run():
     # Define the path to the resume PDF in the knowledge folder
