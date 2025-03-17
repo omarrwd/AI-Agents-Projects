@@ -13,7 +13,7 @@
 
 ## 🌟 Introduction
 
-Welcome to my journey of creating 10 simple projects for AI agents using free tools! (I will try to use free tools as much as possible) each project designed to solve specific problems.
+Welcome to my journey of creating 10 simple projects for AI agents using free tools! (I will try to use free tools as much as possible) each project designed to solve specific problem.
 
 ### 📋 Projects Goals
 
