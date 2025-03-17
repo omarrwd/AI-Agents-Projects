@@ -77,7 +77,7 @@ Then:
 ### Option B: Using CrewAI as Python library 
 
 1. git clone   ``` https://github.com/omarrwd/AI-Agents-Projects ```
-2. cd AI-Agents-Projects/resume_checker_agent
+2. cd ``` resume_checker_agent  ```
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -97,6 +97,7 @@ Then:
 
 1. Place your resume PDF file in the `knowledge` folder
 2. Run the resume checker:
+   
    A. if you are using crewai framework:
    ```bash
    crewai run
