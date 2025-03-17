@@ -18,6 +18,7 @@ Welcome to my journey of creating 10 simple projects for AI agents using free to
 ### 📋 Projects Goals
 
 - Build a foundation for more complex multi-agent systems to gain experience.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🤖 project  #1: Resume Checker
 
@@ -44,16 +45,14 @@ The agents work sequentially to provide comprehensive analysis based on up-to-da
 ### Prerequisites
 
 - Python 3.11
-- OpenRouter API key (if you want to use free LLMs)
-- PyPDF2
-- CrewAI
+- OpenRouter API key (to use free LLMs)
 
-### Installation
-
-1. Clone this repository.
-
-2. choose the project and open it in VSCode
-
+## Setup Options
+### Option A: Using CrewAI Framework
+first of all you should install the framework from [crewai install](https://docs.crewai.com/installation)
+Then: 
+1. git clone   ``` https://github.com/omarrwd/AI-Agents-Projects ```
+2. cd AI-Agents-Projects/resume_checker_agent
 3. Install dependencies:
    ```bash
    crewai install
@@ -64,7 +63,7 @@ The agents work sequentially to provide comprehensive analysis based on up-to-da
    ```
    OPENROUTER_API_KEY=your_api_key_here
    ```
-
+   
 5. If you need to install additional packages (this is from crew ai Docs), use:
    ```
    uv add <package-name>:
@@ -74,12 +73,32 @@ The agents work sequentially to provide comprehensive analysis based on up-to-da
    ```
    uv add <package-name>:
    ```
+
+### Option B: Using CrewAI as Python library 
+
+1. git clone   ``` https://github.com/omarrwd/AI-Agents-Projects ```
+2. cd AI-Agents-Projects/resume_checker_agent
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+   ```
+
+4. Create a `.env` file with your API key:
+   ```
+   OPENROUTER_API_KEY=your_api_key_here
+   ```
+
+5. if there is error of PyPDF2 package or any package you can try install it, use:
+   ```
+   pip install <package_name>
+   ```
 ### Usage
 
 1. Place your resume PDF file in the `knowledge` folder
 2. Run the resume checker:
    ```bash
-   crewai run
+   crewai run (if you are using crewai as framework) OR     python main.py  (if you are using crewai as python library)
    ```
 3. Review the output in output folder
 
@@ -90,6 +109,7 @@ The agent behavior can be configured through YAML files:
 - `config/agents.yaml`: Defines agent roles, goals, and backstories
 - `config/tasks.yaml`: Specifies the tasks and expected outputs
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 📝 Note
 
 I am a beginner in AI agent development, and this is my first project in this domain. While I have set specific goals and roles for agents, I acknowledge that there is ample room for improvement. If you have suggestions for better-defined goals, roles, better structure , or any other enhancements, I am eager to learn from your insights. Your feedback will be invaluable as I continue my learning journey.
